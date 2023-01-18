@@ -130,6 +130,18 @@ print(curso)
 #pega uma lista e coloca o cifrao em cada elemento e transforma em uma string
 curso = '$'.join(lista6)
 print(curso)
+
+#podemos colocar qualquer tipo de dado em uma lista inclusive misturando os dados
+lista6 = [1, 2.34, True, 'Geek', [1, 2, 3], 4566465465456]
+
+#iterando sobre listas
+#ex01 - utilizando for
+
+soma = ''
+for elemento in lista2:
+    print(elemento)
+    soma += elemento
+print(soma)
 '''
 
 type([])
@@ -141,3 +153,15 @@ lista4 = list(range(11))
 lista5 = list('Geek University')
 
 
+
+#ex02 - utilizando while
+carrinho = []
+produto = ''
+while produto != 'sair':
+    print("Adicione um produto na lista ou digite 'sair' ")
+    produto = input()
+    if produto != 'sair':
+        carrinho.append()
+
+for produto in carrinho:
+    print(produto)
