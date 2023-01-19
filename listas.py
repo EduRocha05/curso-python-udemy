@@ -111,7 +111,7 @@ curso = 'Programaçao em Python: Essencial'
 print(curso)
 curso = curso.split()
 print(curso)
-#obs: por padrao o split separ os elemntos da lista pelo espaço entre elas.
+#obs: por padrao o split separa os elemntos da lista pelo espaço entre elas.
 
 #ex2
 curso = 'Programaça,em,Python:,Essencial'
