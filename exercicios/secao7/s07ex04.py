@@ -8,7 +8,7 @@ vetor = []
 indice = 0
 soma = 0
 while indice < 8:
-    num = int(input('Informe um numero: '))
+    num = int(input('Digite um numero: '))
     vetor.append(num)
     indice += 1
 print(vetor)
