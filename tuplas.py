@@ -41,7 +41,7 @@ print(escola)
 print(curso)
 #gera erro se colocarmos um numero diferente de elementos para desempacotar
 
-#OBS adição e  remoção de elementos nas tuplas não existem dado o fato das tuplas serem imutaveis
+#OBS adição e remoção de elementos nas tuplas não existem dado o fato das tuplas serem imutaveis
 
 #soma, valor max, valor min, tamanho
 #se valores forem inteiros ou reais

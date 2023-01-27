@@ -1,5 +1,5 @@
 '''
-14 - Faça um programa que leia um vetor de 10 posições e verifique se existem valores iguais e os escreva na tela.
+15 - Leia um vetor com 20 numeros inteiros. Escreva os elementos do vetor eliminando elementos repetidos
 '''
 
 vetor = []
@@ -11,5 +11,5 @@ while cont < 10:
 print()
 for valor in vetor:
     if vetor.count(valor) >= 2:
-        print(valor)
+        vetor.pop(valor)
 print(vetor)

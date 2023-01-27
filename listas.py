@@ -45,7 +45,7 @@ print(lista1)
 lista1.append(42)
 print(lista1)
 
-lista1.append([8, 3, 1]) #coloca a lista como elemento unico(sublista
+lista1.append([8, 3, 1]) #coloca a lista como elemento unico(sublista)
 print(lista1)
 
 lista1.extend([123, 44, 67]) #coloca cada elemento da lista como valor adicional a lista
